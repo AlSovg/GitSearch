@@ -1,0 +1,22 @@
+.searchForm {
+  display: flex;
+  gap: 0.5rem;
+
+  &__FieldWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 60px;
+  }
+
+  &__Error {
+    font-size: 0.875rem;
+    color: #ef4444;
+  }
+
+  &__Hint {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-left: 0.5rem;
+  }
+}
